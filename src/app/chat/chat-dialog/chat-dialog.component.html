@@ -1,0 +1,37 @@
+
+<div class = "bgImage img-responsive center-block">
+  <div id="msgContainer" class = "container-fluid containerHeight">
+
+    <ng-container *ngFor="let message of messages | async">
+
+      <div class="message" [ngClass]="{ 'from': message.sentBy === 'bot',
+                                        'to':   message.sentBy === 'user' }"
+                                        [ngStyle]="{'margin-left': message.sentBy === 'bot' ? '2%' : message.boxSize,
+                                        'margin-right': message.sentBy === 'bot' ? message.boxSize : '2%'}">
+        {{ message.content }}
+      </div>
+      <div class="saveTheDate img-responsive" [hidden]="message.hideImage"></div>
+      <div class="newPic1 img-responsive" [hidden]="message.hideNextImage"></div>
+      <div class="newPic2 img-responsive" [hidden]="message.hideNextImage"></div>
+      <div class="newPic3 img-responsive" [hidden]="message.hideNextImage"></div>
+      <div class="newPic4 img-responsive" [hidden]="message.hideNextImage"></div>
+      <div class="newPic5 img-responsive" [hidden]="message.hideNextImage"></div>
+      <div class="map img-responsive" [hidden]="message.hideMap"></div>
+    </ng-container>
+    
+  </div>
+
+
+
+<!--<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text">-->
+
+
+  <div class = "centerAlignment">
+    <div *ngFor="let autoM of autoMessages">
+      <button  class ="buttonAuto"  [ngStyle]="{'display': hideButton}" (click)="sendMessage(autoM)">{{autoM}}</button>
+    </div>
+    
+
+  </div>
+</div>
+

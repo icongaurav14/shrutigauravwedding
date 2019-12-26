@@ -1,0 +1,185 @@
+.message {
+    
+    margin: 10px 15px 10px;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+}
+.message.to {
+    background-color: rgb(232, 67, 136);
+    color: #fff;
+    border-radius: 20px 4px 20px 20px;
+    text-align: right;
+    animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+    opacity: 0.8;
+
+}
+
+
+
+.message.from {
+    background-color: rgb(98, 84, 222);
+    color: white;
+    border-radius: 4px 20px 20px 20px;
+    opacity: 0.8;
+    animation: fadeIn ease 0.8s;
+  -webkit-animation: fadeIn ease 0.8s;
+  -moz-animation: fadeIn ease 0.8s;
+  -o-animation: fadeIn ease 0.8s;
+  -ms-animation: fadeIn ease 0.8s;
+
+}
+.message.to + .message.to,
+.message.from + .message.from {
+margin-top: 0px;
+}
+
+.buttonAuto {
+    background-color: rgb(232, 67, 136);
+    opacity: 0.9;
+}
+
+.centerAlignment{
+    
+    position: relative;
+    bottom: 0;
+    top:85%;
+    text-align: center;
+}
+
+.containerHeight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+.bgImage{
+    background-image: url('../image/chatImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.saveTheDate{
+   background-image: url('../image/MyInvitation.jpeg');
+   background-repeat: no-repeat;
+   height:50%;
+   margin-right:30%;
+   margin-left : 2%;
+   background-size: contain;
+}
+
+.newPic1{
+    background-image: url('../image/baseImage1.jpeg');
+    background-repeat: no-repeat;
+    height:40%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+ .newPic2{
+    background-image: url('../image/baseImage2.jpeg');
+    background-repeat: no-repeat;
+    height:40%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+
+ .newPic3{
+    background-image: url('../image/baseImage3.jpeg');
+    background-repeat: no-repeat;
+    height:40%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+
+ .newPic4{
+    background-image: url('../image/baseImage4.jpeg');
+    background-repeat: no-repeat;
+    height:40%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+ .newPic5{
+    background-image: url('../image/baseImage5.jpeg');
+    background-repeat: no-repeat;
+    height:40%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+ .map{
+    background-image: url('../image/map.jpeg');
+    background-repeat: no-repeat;
+    height:80%;
+    margin-right:30%;
+    margin-left : 2%;
+    background-size: contain;
+ }
+
+
+@keyframes fadeIn {
+    0% {
+        opacity:0.2;
+      }
+      100% {
+        opacity:0.8;
+      }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+        opacity:0.2;
+      }
+      100% {
+        opacity:0.8;
+      }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+        opacity:0.2;
+      }
+      100% {
+        opacity:0.8;
+      }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0.2;
+    }
+    100% {
+      opacity:0.8;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0.2;
+    }
+    100% {
+      opacity:0.8;
+  }
+}

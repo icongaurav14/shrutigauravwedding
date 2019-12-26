@@ -1,0 +1,8 @@
+[2019-12-23 22:23:47.461] [sharedprocess] [info] main {"machineId":"c95cded52a9bfaf2a7d26179226528fa406a5666d97d7ce19941154825424057","windowId":2}
+[2019-12-23 22:24:27.443] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-12-25 14:42:17.182] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2019-12-25 14:42:19.700] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /tmp/7402f7d6-4640-44f2-abdb-429f2c850c2f
+[2019-12-25 14:42:19.757] [sharedprocess] [info] Extracted extension to /home/gaurav/.vscode/extensions/.vscjava.vscode-java-debug-0.24.0: vscjava.vscode-java-debug
+[2019-12-25 14:42:19.757] [sharedprocess] [info] Renamed to /home/gaurav/.vscode/extensions/vscjava.vscode-java-debug-0.24.0
+[2019-12-25 14:42:19.757] [sharedprocess] [info] Installation completed. vscjava.vscode-java-debug
+[2019-12-25 14:42:19.771] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-debug
